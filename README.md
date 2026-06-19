@@ -1,104 +1,157 @@
-# **Chronos Divide -- Technical Operations and Content Document**
+# Chronos Divide
 
-## **1. Game File: Technical Specifications and Controls**
+**Chronos Divide** is a narrative-driven combat puzzle platformer built around **World Duality**, **High-Velocity Parkour**, and **Ancient Roman-inspired environments**. Players traverse interconnected realities using a unique **World Shift** mechanic while overcoming platforming challenges, environmental puzzles, and combat encounters.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6e909767-cb86-411a-b2e8-5b50fd2f801f" width="49.5%">
+  <img src="https://github.com/user-attachments/assets/03b51637-aeb9-42cb-bf06-6b7a4e2d2282" width="49.5%">
+</p>
 
-### **Deployment Protocol**
+## Quick Access
 
-To initiate the application, follow the sequence below: 1.
-**Acquisition:** Download **`InterIITGameDev_3.zip`** and decompress (unzip) the complete game build
-directory. 2. **Launch:** Locate the executable file:
-**`InterIITGameDev_3.exe`** . Double-click to begin the application.
+| Resource                | Link                                                                       |
+| ----------------------- | -------------------------------------------------------------------------- |
+| 🎮 Game Build           | [Download from Google Drive](https://drive.google.com/drive/folders/1yYchjJ548MN0aP4eFH9Er8NobWTIWCNz?usp=sharing)                       |
+| 🎥 Gameplay Walkthrough | [Demonstration_Video_GDAI_Team_91](./Demonstration_Video_GDAI_Team_91.mp4) |
+| 📊 Project Presentation | [PPT_GDAI_Team_91_](./PPT_GDAI_Team_91_.pdf)                                 |
 
-------------------------------------------------------------------------
+> **Note:** The game build is hosted on Google Drive because the packaged executable exceeds GitHub's file size limits.
 
-### **Core Input Scheme**
+# Table of Contents
 
-Mastery of the **World Shift** mechanic is essential for interacting
-with the dual-reality environment.
+<!--ts-->
 
-  ------------------------------------------------------------------------
-  Action           Key / Input                 Description
-  ---------------- --------------------------- ---------------------------
-  Move             **W / A / S / D**           Directional locomotion.
+* [Game File: Technical Specifications and Controls](#game-file-technical-specifications-and-controls)
 
-  Jump / Double    **Spacebar**                Vertical traversal and
-  Jump                                         aerial movement.
+  * [Deployment Protocol](#deployment-protocol)
+  * [Core Input Scheme](#core-input-scheme)
+* [Presentation: Design and Evaluation Summary](#presentation-design-and-evaluation-summary)
+* [Two-Minute Game Walkthrough](#two-minute-game-walkthrough-intuitive-gameplay-flow)
+* [Troubleshooting](#troubleshooting)
+* [Unity Assets Used](#unity-assets-used)
+* [Disclaimer](#disclaimer)
 
-  Sprint           **R**                       Accelerated movement.
+<!--te-->
 
-  World Shift      **Shift**                   Critical reality-swap
-                                               mechanic.
+---
 
-  Attack           **Left Mouse Button**       Primary offensive action.
+# Game File: Technical Specifications and Controls
 
-  Parry            **C**                       Defensive kinetic
-                                               deflection.
+## Deployment Protocol
 
-  Previous         **P**                       Reset position to last save
-  Checkpoint                                   point.
+To initiate the application, follow the sequence below:
 
-  Pause Menu       **Esc**                     Access system and
-                                               configuration options.
-  ------------------------------------------------------------------------
+1. Download the game build from the **Google Drive link above**.
+2. Extract the downloaded archive (`InterIITGameDev_3.zip`).
+3. Open the extracted folder.
+4. Launch **InterIITGameDev_3.exe**.
+5. Enjoy the game.
 
-------------------------------------------------------------------------
+## Core Input Scheme
 
-## **2. Presentation: Design and Evaluation Summary**
+Mastery of the **World Shift** mechanic is essential for navigating the dual-reality environment.
 
-The presentation **PPT_GDAI_Team_91** outlines **Chronos Divide** as a
-narrative-driven, combat-focused puzzle platformer built around **World
-Duality**, **High-velocity Parkour**, **Ancient Roman Thematic Design**.
+| Action              | Key / Input           | Description                             |
+| ------------------- | --------------------- | --------------------------------------- |
+| Move                | **W / A / S / D**     | Directional locomotion                  |
+| Jump / Double Jump  | **Spacebar**          | Vertical traversal and aerial movement  |
+| Sprint              | **R**                 | Accelerated movement                    |
+| World Shift         | **Shift**             | Critical reality-swap mechanic          |
+| Attack              | **Left Mouse Button** | Primary offensive action                |
+| Parry               | **C**                 | Defensive kinetic deflection            |
+| Previous Checkpoint | **P**                 | Reset position to last save point       |
+| Pause Menu          | **Esc**               | Access system and configuration options |
 
-The presentation further documents playtesting outcomes, key learnings,
-and design evaluations that guided the refinement of core mechanics and
-level pacing.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-------------------------------------------------------------------------
+---
 
-## **3. Two-Minute Game Walkthrough: Intuitive Gameplay Flow**
+# Presentation: Design and Evaluation Summary
 
-The game experience unfolds across three dynamic environments in
-**Demonstration_Video_GDAI_Team_91**:
+The presentation **PPT_GDAI_Team_91** outlines **Chronos Divide** as a combat-focused puzzle platformer built around:
 
--   **Town Square:** Parkour traversal is required to navigate and
-    progress.
--   **Cathedral:** Elevated, high-velocity parkour challenges intensify
-    the platforming experience.
--   **Museum & Dungeon Boss:** Engages the player in advanced combat
-    scenarios leading to the final confrontation, demanding mastery of
-    movement, World Shift, and combat tactics.
+* World Duality and reality switching
+* High-velocity parkour traversal
+* Ancient Roman-inspired world design
+* Environmental puzzles and exploration
+* Skill-based combat encounters
 
-------------------------------------------------------------------------
+The presentation further documents gameplay objectives, design decisions, technical implementation, playtesting outcomes, and lessons learned throughout development.
 
-## **Troubleshooting**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If the application fails to start: - Run **InterIITGameDev_3.exe** with
-*Administrator privileges*.\
-- Confirm that all game files remain within the original extracted
-directory.
+---
 
-------------------------------------------------------------------------
+# Two-Minute Game Walkthrough: Intuitive Gameplay Flow
 
-## Unity Assets Used
+The gameplay demonstration showcases progression through three major environments:
 
-  Asset Name                               Publisher
-  ---------------------------------------- ---------------------
-  ORBS VFX PACK                            Game HUB
-  Procedural Fire                          Hovl Studio
-  VFX Particles: Fireball Pack (Free)      Solodream Creation
-  Mesh Terrain Editor Free                 zwcloud
-  Trails VFX -- URP                        Vefects
-  GUI Pro -- Fantasy RPG                   LayerLab
-  Ability & Combat Toolkit (ABC Toolkit)   ABC Toolkit
-  3D Adaptive Parkour System               RedNotRed
-  Idyllic Ancient Ruins (v2)               Halberstram Art
-  Idyllic Rome                             Halberstram Art
-  Cartoon FX Remaster Free                 Jean Moreno
-  FANTASTIC Dungeon Pack                   Tidal Flask Studios
-  Cologne Cathedral                        Dantes1602
+### Town Square
 
-## Disclaimer
+Players are introduced to movement mechanics, traversal systems, and the World Shift ability. Platforming challenges establish the core gameplay loop.
 
-Declaration: AI-based tools were employed selectively to assist with
-content development and image generation like front page design, video
-AI voice generation.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5fca2cf7-3272-41ad-abf1-c7597219b910" width="70%">
+</p>
+
+### Cathedral
+
+Advanced parkour sequences demand precision movement, timing, and mastery of environmental navigation.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/45647ee1-69ce-4cb4-b45a-84e5fe2e37af" width="70%">
+</p>
+
+### Museum & Dungeon Boss
+
+The final area combines puzzle-solving, combat mechanics, and World Shift interactions, culminating in an intense boss encounter that tests all previously learned skills.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3fa0dc20-1e50-44e2-91b6-aa59bd905aa0" width="70%">
+</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+---
+
+# Troubleshooting
+
+If the application fails to start:
+
+* Run **InterIITGameDev_3.exe** with administrator privileges.
+* Ensure all extracted game files remain inside the original directory.
+* Verify that the archive was fully extracted before launching the executable.
+* Update graphics drivers if rendering issues occur.
+* Restart the application after modifying graphics settings.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+# Unity Assets Used
+
+| Asset Name                             | Publisher           |
+| -------------------------------------- | ------------------- |
+| ORBS VFX PACK                          | Game HUB            |
+| Procedural Fire                        | Hovl Studio         |
+| VFX Particles: Fireball Pack (Free)    | Solodream Creation  |
+| Mesh Terrain Editor Free               | zwcloud             |
+| Trails VFX -- URP                      | Vefects             |
+| GUI Pro -- Fantasy RPG                 | LayerLab            |
+| Ability & Combat Toolkit (ABC Toolkit) | ABC Toolkit         |
+| 3D Adaptive Parkour System             | RedNotRed           |
+| Idyllic Ancient Ruins (v2)             | Halberstram Art     |
+| Idyllic Rome                           | Halberstram Art     |
+| Cartoon FX Remaster Free               | Jean Moreno         |
+| FANTASTIC Dungeon Pack                 | Tidal Flask Studios |
+| Cologne Cathedral                      | Dantes1602          |
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+# Disclaimer
+
+**Declaration:** AI-assisted tools were used selectively during development for content support purposes, including AI-generated voice assets. All gameplay programming, level design integration, mechanics implementation, and project development were completed by the team.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
